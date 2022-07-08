@@ -1,0 +1,320 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Iced/1.17.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Iced.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Iced.dll": {}
+        }
+      },
+      "Reloaded.Assembler/1.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Reloaded.Memory.Buffers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reloaded.Assembler.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reloaded.Assembler.dll": {}
+        },
+        "build": {
+          "build/Reloaded.Assembler.targets": {}
+        }
+      },
+      "Reloaded.Hooks/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Iced": "1.17.0",
+          "Reloaded.Assembler": "1.0.14",
+          "Reloaded.Hooks.Definitions": "1.14.0",
+          "Reloaded.Memory.Buffers": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reloaded.Hooks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reloaded.Hooks.dll": {}
+        }
+      },
+      "Reloaded.Hooks.Definitions/1.14.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.dll": {}
+        }
+      },
+      "Reloaded.Memory/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Reloaded.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Reloaded.Memory.dll": {}
+        }
+      },
+      "Reloaded.Memory.Buffers/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Reloaded.Memory": "7.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Reloaded.Memory.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Reloaded.Memory.Buffers.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iced/1.17.0": {
+      "sha512": "8x+HCVTl/HHTGpscH3vMBhV8sknN/muZFw9s3TsI8SA6+c43cOTCi2+jE4KsU8pNLbJ++iF2ZFcpcXHXtDglnw==",
+      "type": "package",
+      "path": "iced/1.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "iced.1.17.0.nupkg.sha512",
+        "iced.nuspec",
+        "lib/net45/Iced.dll",
+        "lib/net45/Iced.xml",
+        "lib/netstandard2.0/Iced.dll",
+        "lib/netstandard2.0/Iced.xml",
+        "lib/netstandard2.1/Iced.dll",
+        "lib/netstandard2.1/Iced.xml",
+        "logo.png"
+      ]
+    },
+    "Reloaded.Assembler/1.0.14": {
+      "sha512": "y4I1ktSnHPIz3t1JcWk5Xiu0C0BmrlJ6nDnQGwiyz65RH6hjn9vPCcKYjpQDveuTtsebBFdTdUjxTUSw+qtZ2w==",
+      "type": "package",
+      "path": "reloaded.assembler/1.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE",
+        "build/FASM-LICENSE.TXT",
+        "build/FASM.DLL",
+        "build/FASMX64.DLL",
+        "build/Reloaded.Assembler.targets",
+        "lib/net5.0/Reloaded.Assembler.dll",
+        "lib/net5.0/Reloaded.Assembler.pdb",
+        "lib/net5.0/Reloaded.Assembler.xml",
+        "lib/net6.0/Reloaded.Assembler.dll",
+        "lib/net6.0/Reloaded.Assembler.pdb",
+        "lib/net6.0/Reloaded.Assembler.xml",
+        "lib/netstandard2.0/Reloaded.Assembler.dll",
+        "lib/netstandard2.0/Reloaded.Assembler.pdb",
+        "lib/netstandard2.0/Reloaded.Assembler.xml",
+        "reloaded.assembler.1.0.14.nupkg.sha512",
+        "reloaded.assembler.nuspec"
+      ]
+    },
+    "Reloaded.Hooks/4.2.0": {
+      "sha512": "04efJD9HbFdqS+CG7Rtixan2HNTeyhcR5sGuf/tluSz1GBlXdimeIGJ1oKsq/sF8WOcKdMK5i2hveqc3X2251A==",
+      "type": "package",
+      "path": "reloaded.hooks/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.md",
+        "lib/net5.0/Reloaded.Hooks.dll",
+        "lib/net5.0/Reloaded.Hooks.xml",
+        "lib/net7.0/Reloaded.Hooks.dll",
+        "lib/net7.0/Reloaded.Hooks.xml",
+        "lib/netstandard2.0/Reloaded.Hooks.dll",
+        "lib/netstandard2.0/Reloaded.Hooks.xml",
+        "reloaded.hooks.4.2.0.nupkg.sha512",
+        "reloaded.hooks.nuspec"
+      ]
+    },
+    "Reloaded.Hooks.Definitions/1.14.0": {
+      "sha512": "M0lyijJXzsslm2b32OeHgOnFNeV8IYGCudzY5OpH1J/CjY/x/fKNVHhrh62y1Oja38BvmHRddWmUalAjLjLt7w==",
+      "type": "package",
+      "path": "reloaded.hooks.definitions/1.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net5.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net5.0/Reloaded.Hooks.Definitions.xml",
+        "lib/net6.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net6.0/Reloaded.Hooks.Definitions.xml",
+        "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.dll",
+        "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.xml",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.dll",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.xml",
+        "reloaded.hooks.definitions.1.14.0.nupkg.sha512",
+        "reloaded.hooks.definitions.nuspec"
+      ]
+    },
+    "Reloaded.Memory/7.0.0": {
+      "sha512": "QGg022yKnymnOGvvWQbIa7s0ODm3YRf4epRtr4D9pQ3KBy7mq/pF5kqCgW1oCmocjKnCKNBOBIz2A4zgZkLNkQ==",
+      "type": "package",
+      "path": "reloaded.memory/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net5.0/Reloaded.Memory.dll",
+        "lib/net5.0/Reloaded.Memory.xml",
+        "lib/net6.0/Reloaded.Memory.dll",
+        "lib/net6.0/Reloaded.Memory.xml",
+        "lib/netstandard2.0/Reloaded.Memory.dll",
+        "lib/netstandard2.0/Reloaded.Memory.xml",
+        "lib/netstandard2.1/Reloaded.Memory.dll",
+        "lib/netstandard2.1/Reloaded.Memory.xml",
+        "reloaded.memory.7.0.0.nupkg.sha512",
+        "reloaded.memory.nuspec"
+      ]
+    },
+    "Reloaded.Memory.Buffers/2.0.0": {
+      "sha512": "LghMip4Q1mpr9+HsZCGYazlaxnZyMtbiGf87Ttao8Al2F+wvnRet1gPPA5qEaTWnBFg/3DNILwBBbC0W6o0tsw==",
+      "type": "package",
+      "path": "reloaded.memory.buffers/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE",
+        "lib/net5.0/Reloaded.Memory.Buffers.dll",
+        "lib/net5.0/Reloaded.Memory.Buffers.xml",
+        "lib/net6.0/Reloaded.Memory.Buffers.dll",
+        "lib/net6.0/Reloaded.Memory.Buffers.xml",
+        "lib/netstandard2.0/Reloaded.Memory.Buffers.dll",
+        "lib/netstandard2.0/Reloaded.Memory.Buffers.xml",
+        "lib/netstandard2.1/Reloaded.Memory.Buffers.dll",
+        "lib/netstandard2.1/Reloaded.Memory.Buffers.xml",
+        "reloaded.memory.buffers.2.0.0.nupkg.sha512",
+        "reloaded.memory.buffers.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "sha512": "zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Reloaded.Hooks >= 4.2.0",
+      "Reloaded.Hooks.Definitions >= 1.14.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chenyifei\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\chenyifei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chenyifei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\MyProject\\Cpp\\vcpkg\\scripts\\buildsystems": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Reloaded.Hooks": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "Reloaded.Hooks.Definitions": {
+            "target": "Package",
+            "version": "[1.14.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

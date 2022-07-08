@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Hooky.x64": "1.0.0",
+          "Reloaded.Hooks.Definitions": "1.14.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Hooky.x64/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Hooky.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Reloaded.Hooks.Definitions/1.14.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Reloaded.Hooks.Definitions.dll": {
+            "assemblyVersion": "1.14.0.0",
+            "fileVersion": "1.14.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hooky.x64/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r9URoqsO/oSiUY8d17/8fxE/UkORxKLBlT8kQ5/0B7KpfIiK+vi89L+DESKxxTob3WDmuPMhv+Xfl5JjyTMWwA==",
+      "path": "hooky.x64/1.0.0",
+      "hashPath": "hooky.x64.1.0.0.nupkg.sha512"
+    },
+    "Reloaded.Hooks.Definitions/1.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M0lyijJXzsslm2b32OeHgOnFNeV8IYGCudzY5OpH1J/CjY/x/fKNVHhrh62y1Oja38BvmHRddWmUalAjLjLt7w==",
+      "path": "reloaded.hooks.definitions/1.14.0",
+      "hashPath": "reloaded.hooks.definitions.1.14.0.nupkg.sha512"
+    }
+  }
+}

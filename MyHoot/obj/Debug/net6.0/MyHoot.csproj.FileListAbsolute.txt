@@ -1,0 +1,12 @@
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\bin\Debug\net6.0\MyHoot.deps.json
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\bin\Debug\net6.0\MyHoot.dll
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\bin\Debug\net6.0\ref\MyHoot.dll
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\bin\Debug\net6.0\MyHoot.pdb
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.csproj.AssemblyReference.cache
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.AssemblyInfoInputs.cache
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.AssemblyInfo.cs
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.csproj.CoreCompileInputs.cache
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.dll
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\ref\MyHoot.dll
+C:\Users\chenyifei\RiderProjects\ConsoleApp1\MyHoot\obj\Debug\net6.0\MyHoot.pdb

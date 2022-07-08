@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestHook/1.0.0": {
+        "dependencies": {
+          "MyHoot": "1.0.0"
+        },
+        "runtime": {
+          "TestHook.dll": {}
+        }
+      },
+      "MyHoot/1.0.0": {
+        "runtime": {
+          "MyHoot.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestHook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHoot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MyHoot/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyHoot.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHoot.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyHoot/1.0.0": {
+      "type": "project",
+      "path": "../MyHoot/MyHoot.csproj",
+      "msbuildProject": "../MyHoot/MyHoot.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MyHoot >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chenyifei\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\TestHook\\TestHook.csproj",
+      "projectName": "TestHook",
+      "projectPath": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\TestHook\\TestHook.csproj",
+      "packagesPath": "C:\\Users\\chenyifei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\TestHook\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chenyifei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\MyProject\\Cpp\\vcpkg\\scripts\\buildsystems": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\MyHoot\\MyHoot.csproj": {
+              "projectPath": "C:\\Users\\chenyifei\\RiderProjects\\ConsoleApp1\\MyHoot\\MyHoot.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
